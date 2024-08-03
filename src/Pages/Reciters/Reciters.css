@@ -1,0 +1,28 @@
+.Reciters {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: "15px";
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 700px) {
+  .Reciters {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+.Reciters-G {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-reciter {
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3rem;
+  font-weight: 600;
+}

@@ -1,0 +1,21 @@
+.Ayahs {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+}
+
+.Surah-Name {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.Ayahs_Surah {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
